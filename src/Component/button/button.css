@@ -1,0 +1,32 @@
+a {
+    text-decoration: none !important;
+}
+.button-title {
+    margin: 3px auto;
+    font-weight: 600;
+     color: white;
+     font-size:12px
+    }
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    color: white;
+    border-radius: 10px;
+    margin:15px;
+    transition: all 0.4s ease;
+    background-color: transparent;
+}
+.btn-active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white; 
+    background-color: crimson;
+    margin:15px;
+    /* transition: all(0.5s); */
+}
