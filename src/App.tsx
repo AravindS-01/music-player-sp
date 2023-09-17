@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import SideBar from './Component/sidebar/SideBar';
 import "./globalStyle.css";
+import { RouterProvider } from 'react-router-dom';
+import { routes } from './routes';
 
 function App() {
-  return (
-    <div className="App">
-      <SideBar/> 
-      <div className='main-container'></div>
-    </div>
-  );
+
+
+  return(<>
+    <RouterProvider router={routes} />
+  </>);
 }
 
 export default App;
