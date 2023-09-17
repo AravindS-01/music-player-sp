@@ -5,11 +5,12 @@ import Trending from "./Component/trending/Trending";
 import Library from "./Component/library/library";
 import NotFound from "./Component/notFound/NotFound";
 import Feed from "./Component/feed/Feed";
+import Home from "./Component/home";
 
 export const routes = createBrowserRouter([
     {
         path : "/",
-        element : <App/>,
+        element : <Home/>,
         errorElement :<NotFound/>,
         children:[{
             path: "/favourite",
@@ -32,7 +33,6 @@ export const routes = createBrowserRouter([
     ],
     },
 ])
-
 
 
 
